@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:background="@drawable/mainscreen_back1"
+    android:weightSum="2"
+    tools:context="com.example.kalpakgosalia.e_learningforkids.mainscreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="145dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ignumber"
+            android:layout_width="170dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/number" />
+
+        <ImageView
+            android:id="@+id/igalphabets"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            app:srcCompat="@drawable/alphabet" />
+
+        <ImageView
+            android:id="@+id/igcolors"
+            android:layout_width="150dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            app:srcCompat="@drawable/color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginRight="145dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iganimals"
+            android:layout_width="170dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/animals" />
+
+        <ImageView
+            android:id="@+id/igfruits"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            app:srcCompat="@drawable/fruits" />
+
+        <ImageView
+            android:id="@+id/igbirds"
+            android:layout_width="150dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            app:srcCompat="@drawable/birds" />
+    </LinearLayout>
+</LinearLayout>
